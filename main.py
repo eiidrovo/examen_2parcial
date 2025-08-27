@@ -79,7 +79,11 @@ st.image(FICT_Logo)
 st.caption("FICT - Facultad de Ing. en Ciencias de la Tierra")
 
 st.markdown('''
-A continuación se presentará el historial de produccion del campo volve y las cantidades de petroleo gas y agua producidos en total.
+# Descripción
+A continuación se presentará el historial de produccion del campo volve y las cantidades de petroleo gas y agua 
+producidos en total. (Las gráficas del historial de producción son interactivas, recordar que la producción de gas
+está en un distinto orden de magnitud, por lo que las gráricas pueden llegar a no verse si tienen activado para 
+visualizar la producción de gas
 ''')
 file=None
 if seleccion=='Data':
