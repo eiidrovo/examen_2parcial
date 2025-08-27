@@ -57,6 +57,7 @@ FIMCM_Logo = Image.open('Resources/FIMCM_logo.png')
 FICT_Logo = Image.open('Resources/FICT_logo.png')
 
 
+
 with st.sidebar:
     seleccion = option_menu(
         "Main Menu",
